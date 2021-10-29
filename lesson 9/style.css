@@ -1,0 +1,138 @@
+header{
+    background-color:whitesmoke;
+    width: 100%;
+    border:outset;
+    position: sticky;
+    top: 0;
+    left:0;
+    z-index: 1;
+    padding-bottom: 7px;
+
+}
+
+header img{
+    width: 100%;
+}
+a{
+    text-decoration: none;
+}
+a img{
+    width: 30px;
+    height: 30px;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#product-list{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+.product-item{
+    border: groove ;
+    width: 400px;
+    margin-bottom: 100px;
+   background-color: whitesmoke;
+   text-align: center;
+   position: relative;
+}
+.product-item a{
+    text-decoration: none;
+    color:red;
+}
+.product-item img{
+    width:400px; 
+    height: 400px;
+}
+body{
+    background-color: lightgray;
+    background-image: url(https://img3.thuthuatphanmem.vn/uploads/2019/09/30/background-vector-thanh-pho_022028585.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+    height: 500px;
+    background-size: cover;
+}
+.product-item-info{
+    background-color: aqua;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    opacity: 0;
+    transition: 0.5s;
+}
+.product-item:hover .product-item-info{
+    opacity: 1;
+}
+h1{
+    color: red;
+}
+nav ul{
+    margin:0px;
+    
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding-right:15px;
+    
+}   
+a{
+    text-decoration: none;
+    color:blue;
+    font-size: large;
+    
+}
+
+nav ul li a {
+    color:white;
+    border:outset;
+    border-color:grey;
+    background:darkgrey;
+    padding:5px 20px;
+}
+.container{
+    max-width: 1500px;
+    min-width: 750px;
+    margin: auto
+}
+h1{
+    font-size: 30px;
+
+}
+
+
+a:hover{
+    color:cyan;
+}
+.row{
+    margin: 0px -18px;
+    padding: 8px;
+}
+.col{
+    background:whites;
+    padding:0px;
+    margin:1%;
+    float:left;
+    width:30%;
+}
+.content{
+    border:solid lightgray;
+    padding:10px;
+    background-color: white;
+}
+img{
+    width: 100%;
+}
+.col2{
+    background:whites;
+    padding:0px;
+    margin:1%;
+    float:left;
+    width:48%;
+}
